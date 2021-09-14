@@ -49,7 +49,6 @@ public class CalculatorTest {
 	public void testDivision2() {
 		OldPound a = new OldPound(18, 16, 1);
 		DivisionResult result = new DivisionResult( new OldPound(1, 5, 0),new OldPound(0, 1, 1));
-		System.out.println(result);
 		assertTrue(calculator.division(a, 15).equals(result));
 	}
 	

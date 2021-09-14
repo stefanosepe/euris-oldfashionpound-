@@ -30,6 +30,7 @@ public class OldPoundCalculator{
 	public OldPound multiplication(OldPound a, Integer b) {
 		Integer pennies = a.toPennies() * b;
 		OldPound result =  new OldPound(pennies);
+		System.out.println(a+" * "+b+" = "+result);
 		return result;
 	}
 	
